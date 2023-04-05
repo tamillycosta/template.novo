@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"Open Sans" ;
+}
+
+body{
+    margin-bottom: 500px;
+}
+
+.main-background{
+    background-image: url("../img/images/header-background.jpg");
+background-size: cover;
+background-position: center;
+height: 900px;
+position: relative;
+}
+
+.cabeçalho{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+position: sticky;
+z-index: 50;
+background-image: url("../img/images/details-1-background.jpg");
+box-shadow: 0px 0px 6px 0px ;
+top: 0;
+overflow: hidden;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;  
+    margin-top: 20PX;
+}
+
+.main-links{
+width: 445.27px;
+display: flex;
+justify-content: space-around;
+font-size: 18px;
+margin-top: 30PX;
+position: sticky;
+    overflow: hidden;
+}
+.main-links a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.fa-brands{
+    color: #3DCAC8;
+    width: 18px;
+    display: block;
+}
+

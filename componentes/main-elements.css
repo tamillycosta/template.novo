@@ -1,0 +1,106 @@
+
+.flip-card{
+    width: 400px;
+    height: 300px;
+    perspective: 1000px;
+    position: absolute;
+    right: 1050px;
+    top: 230px
+ }
+
+ 
+.flip-card:hover .box-img{
+    transform: rotateY(180deg);}
+
+ .box-img{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.8s;
+    position: relative;
+    display: flex;
+    align-items: center;}
+
+    
+.slide{
+    width: 680px;
+    height: 400px;
+    align-items: center;
+}
+
+
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+
+.box-variados{
+    width: 530px;
+    margin-left: 70px;
+    position: absolute;
+    right: 130px;
+    top: 260px;
+}
+
+.main-title{
+font-size: 62px;
+color: #fff;
+font-weight:700;
+}
+
+.description{ 
+font-size: 22px;
+font-weight: 400;
+color: #fff;
+transform: translatey(10px);
+}
+
+.box-variados .btn{
+    color: #fff;
+   transform: translateY(60px);
+   background-color: #3DCAC8;
+   width: 180px;
+   height: 54px;
+   border: 1px solid  #3DCAC8; ;
+   border-radius: 32px;
+   text-align: center;
+  display: flex;
+  align-items: center;
+justify-content: center;
+text-decoration: none;
+transition: 0.5s;
+cursor: grab;}
+
+
+
+.btn:hover{
+    background-color: transparent;
+    color:#3DCAC8;
+}
+  
+.btn.-trasparent{
+    background-color: transparent;
+    transform: translateX(198px);
+}
+
+.btn.-trasparent:hover{
+    background-color: #fff;
+    color:#3A3458;
+    text-shadow: 1 2 0;   
+}
+
+ .brands-position{
+    position: absolute;
+    top: 730px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    left: 180px;
+}
