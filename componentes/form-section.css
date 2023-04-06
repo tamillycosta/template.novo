@@ -1,0 +1,95 @@
+.form-section{
+    background-color: #0B0433;
+    height: 536px;
+display: flex;
+align-items: center;
+justify-content: center;
+    box-sizing: border-box;
+  
+}
+
+.form-elements{
+  width: 1800px;
+  display: flex;
+  position: relative;
+}
+.form{
+  width: 600px;
+  margin-left: 140px;
+  height: 55px;
+  background-color: #3A3458;
+  margin-bottom: 29px;
+  font-size: 20px;
+  border: 1px solid #5A547C;
+  text-align: center;
+}
+
+.form.-chek{
+  width: auto;
+  display: inline;
+  height: auto;
+}
+
+.main-title{
+  font-size: 35px;
+font-Weight:700;
+font-size:40px;
+Line-height:42px;
+margin-bottom: 24px;
+}
+
+ .description.-form{
+  font-size: 18px;
+  position: static;
+  letter-spacing: 1px;
+  margin-bottom: 26px;
+}
+
+ .form-elements .form-list{
+  color: #fff;
+  font-size: 18px;
+  list-style: none;
+  padding-right: 5px;
+  font-family: 'Font Awesome 5 Free';
+ }
+
+ li::before{
+  content: " ";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color:#3DCAC8;
+
+  
+ }
+
+ .refer{
+  color: #fff;
+ }
+
+  .form-elements .text-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-break: loose;
+  }
+
+  .form-elements .btn.-input{
+    display: block;
+    width: 510px;
+    position: absolute;
+    height: 52px;
+    background-color: #3DCAC8;
+    border-radius: 32px;
+    right: 180px;
+    cursor: pointer;
+  }
+
+  .btn.-input:hover{
+    color:#3A3458;
+    transform: scale(1.1);
+  }
+ 

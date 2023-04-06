@@ -60,6 +60,7 @@ font-size: 22px;
 font-weight: 400;
 color: #fff;
 transform: translatey(10px);
+line-break:auto
 }
 
 .box-variados .btn{
@@ -104,3 +105,4 @@ cursor: grab;}
     width: 80%;
     left: 180px;
 }
+
