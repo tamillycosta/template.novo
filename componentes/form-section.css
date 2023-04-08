@@ -5,7 +5,6 @@ display: flex;
 align-items: center;
 justify-content: center;
     box-sizing: border-box;
-  
 }
 
 .form-elements{
@@ -30,6 +29,17 @@ justify-content: center;
   height: auto;
 }
 
+
+.form-elements .text-elements{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 98px;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-break: loose;
+}
+
 .main-title{
   font-size: 34px;
 font-Weight:700;
@@ -45,7 +55,7 @@ margin-bottom: 24px;
   margin-bottom: 26px;
 }
 
- .form-elements .form-list{
+ .form-list{
   color: #fff;
   font-size: 16px;
   list-style: none;
@@ -67,17 +77,8 @@ margin-bottom: 24px;
   color: #fff;
  }
 
-  .form-elements .text-elements{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 98px;
-    box-sizing: border-box;
-    overflow: hidden;
-    line-break: loose;
-  }
 
-  .form-elements .btn.-input{
+   .btn.-input{
     display: block;
     width: 504px;
     position: absolute;
