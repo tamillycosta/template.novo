@@ -1,0 +1,7 @@
+.main-carrocel{
+    background-image: url('/img/images/testimonials-background.jpg');
+    height: 558px;
+    background-size: cover;
+    display: flex;
+    
+}
