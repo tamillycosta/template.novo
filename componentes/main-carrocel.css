@@ -3,5 +3,44 @@
     height: 558px;
     background-size: cover;
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    display: relative;
+}
+
+.main-carrocel .participantes {width: 96px;
+    height: 96px;
+    border-radius: 50%
+}
+
+
+.main-carrocel .description{
+    font-size: 15px;
+width: 180px;
+}
+
+.buton{
+    display: inline-block;
+   width: 50px;
+Height:50px;
+background-color:transparent;
+cursor: grab;
+position: relative;
+}
+
+.buton::before{
+    display: inline-block;
+    border-top:15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff; 
+content: "";
+position: absolute;
+right: 10px;
+top:12px;
+transform: rotate(180deg);
+}
+
+.buton.-rotate{
+transform: rotate(180deg);
+top:10px
 }

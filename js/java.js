@@ -1,4 +1,8 @@
-window.addEventListener("scroll", function(){
-    var header = document.querySelector("cabeçalho");
-    header.classList.toggle("sticky", window.scrolly > 0)
-} )
+const Hamburguer = document.querySelector(".hamburguer");
+const mobMenu = document.querySelector(".main-links")
+
+Hamburguer.addEventListener('click' , ()=>{
+   Hamburguer.classList.toggle('action');
+   mobMenu.classList.toggle('action');
+}
+)
